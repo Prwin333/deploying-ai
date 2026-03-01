@@ -3,7 +3,8 @@ Conversation memory management.
 Maintains chat history with a sliding window to manage context size.
 """
 
-import sys, os
+import sys
+import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from config import MAX_CONVERSATION_TURNS

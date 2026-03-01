@@ -3,7 +3,8 @@ Service 3: Web Search using OpenAI's web search tool.
 Allows users to search for trending food topics, restaurant info, etc.
 """
 
-import sys, os
+import sys
+import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 
 from config import get_openai_client, CHAT_MODEL

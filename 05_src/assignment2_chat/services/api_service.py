@@ -8,7 +8,8 @@ import json
 import requests
 
 # Use a relative import path that works when running from the assignment2_chat dir
-import sys, os
+import sys
+import os
 sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from config import MEALDB_BASE_URL, get_openai_client, CHAT_MODEL
 
